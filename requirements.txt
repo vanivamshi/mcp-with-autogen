@@ -1,0 +1,7 @@
+autogen-agentchat>=0.7
+autogen-ext[openai,mcp]>=0.7
+# mcp>=1.20 removed an import autogen-ext 0.7.x relies on
+mcp<1.20
+flask
+python-dotenv
+pyngrok
